@@ -1,0 +1,25 @@
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.quanty p{
+    color: black;
+    font-size: 18px;
+
+}
+
+.intro .promo{
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+text-transform:uppercase;
+}

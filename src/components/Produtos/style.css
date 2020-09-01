@@ -1,0 +1,20 @@
+.produto{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+   gap: 5rem;
+    justify-content: space-evenly;
+
+}
+
+.descricao .message {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.descricao span{
+    color: #5CA720;
+    font-weight: bold;
+    font-size: 20px;
+}
+

@@ -1,0 +1,96 @@
+footer{
+    background: #F9F9F9;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.termos ul li{
+    list-style: none;
+    font-weight: bold;
+}
+
+.intro-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.news h4{
+    color: black;
+    font-weight: bold;
+
+
+}
+.termos ul{
+    padding: 0;
+}
+
+.termos ul li{
+    line-height: 2rem;
+}
+.termos , .news{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.input-news{
+    display: flex;
+}
+.input-news input{
+    background: #FFFFFF;
+    border: 0.5px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px; 
+    width: 397px;
+height: 54px;
+}
+
+.input-news button{
+    background: #5CA720;
+border-radius: 0px 5px 5px 0px;
+width: 152px;
+height: 54px;
+border: 0;
+color: white;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+}
+
+.social,.payment{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.social img{
+margin-right: 2rem;
+}
+
+.payment img{
+    margin-right: 2rem;
+}
+
+@media(max-width:748px){
+    .input-news button {
+margin-top: 1.3rem;
+        width: 100%;
+        border-radius: 5px;
+      
+      }
+
+    
+
+    .input-news input {
+   
+        border-radius: 5px;
+     
+    }
+      .termos{
+        padding-right: 10rem;
+      }
+      
+}

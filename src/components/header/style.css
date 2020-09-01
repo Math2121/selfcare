@@ -1,0 +1,29 @@
+
+
+.container{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header{
+    background: white;
+    padding-bottom: 1.2rem;
+    padding-top: 1.2rem;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item li{
+    list-style: none;
+    margin-right: 3rem;
+}
